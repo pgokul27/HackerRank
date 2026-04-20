@@ -1,0 +1,1 @@
+def solve(s): return re.sub(r"\b[a-zA-Z]", lambda m: m.group().upper(), s)
